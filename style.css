@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:linear-gradient(300deg, #ffffd2 0, #f5ffd6 8.33%, #e3ffda 16.67%, #d0ffdc 25%, #bdffdc 33.33%, #acffda 41.67%, #9df2d5 50%, #91e1ce 58.33%, #88d3c8 66.67%, #81c6c2 75%, #7dbcbd 83.33%, #7bb4b9 91.67%, #7aaeb7 100%) repeat-y;
+    font-size: 16px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.titulo img {
+    height: 50px;
+    margin: 25px;
+}
+
+.titulo h1 {
+    font-size: 50px;
+    color: blue;
+}
+
+.caja-mensaje {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.mensaje {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.mensaje-box {
+    margin: 0 25px;
+}
+
+.resultado {
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+}
+
+.buttoms {
+    width: 50%;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    position: relative;
+    width: 180px;
+    background: rgb(20,8,213);
+    background: linear-gradient(90deg, rgba(20,8,213,1) 0%, rgba(17,225,226,1) 56%, rgba(0,255,174,1) 100%);
+    border: 5px solid transparent;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 20px;
+    padding: 10px;
+
+}
+
+/*
+
+.Mensaje {
+    height: 100px;
+}
+.btn-global {
+    margin: 20px;
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btn {
+    font-family: Helvetica, sans-serif;
+    display: inline-block;
+    font-size: 1em;
+    padding: 1em 2em;
+    margin-top: 100px;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #ff0081;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: relative;
+    /*margin: 20px;
+    padding: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    background: aquamarine;
+    box-shadow: 0 9px #999;
+
+}
+
+*/
